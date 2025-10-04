@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-white">
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <span class="navbar-brand">🌤️ Weather App</span>
+      <form class="search-form" role="search">
+        <input class="search-input" type="search" placeholder="Enter City Name" spellcheck="false" aria-label="Search">
+        <button class="search-btn" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="main-container">
+    <div class="weather-card">
+      <div class="card-body">
+        <h2 class="card-title">London, GB</h2>
+        <img src="https://openweathermap.org/img/wn/01d@4x.png" alt="Weather Icon" class="weather-icon">
+        <h3>15°C</h3>
+        <p class="lead">Clear sky</p>
+        <hr>
+        <div class="weather-details">
+          <div>
+            🌡️ <strong>Feels like:</strong><br> 14°C
+          </div>
+          <div>
+            💧 <strong>Humidity:</strong><br> 60%
+          </div>
+          <div>
+            💨 <strong>Wind:</strong><br> 3 m/s
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
